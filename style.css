@@ -117,13 +117,18 @@ header a:hover {
   display: flex;
   justify-content: center;
   padding: 10px;
-  border-style: solid;
-  background-image: url("Amongus.jpg");
-  background-size: 100%;
 }
 
 .test img {
+  display: flex;
+  justify-content: center;
   width: 50%;
+}
+
+.test {
+  background-image: url("Amongus.jpg");
+  background-size: 100%;
+  height: 500px;
 }
 
 .amongustext {
@@ -255,16 +260,16 @@ footer {
 }
 
 .maingames a {
-  margin: 10px;
+  width: 100px;
 }
 
 .maingames h1 {
   font-family: "Turret Road", serif;
 }
 
-.download a {
+.download a,
+.download img {
   display: flex;
-  width: 100px;
 }
 
 .mainnews {
